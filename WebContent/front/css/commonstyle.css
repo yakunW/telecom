@@ -1,0 +1,11 @@
+.include tr{
+	height:30px;
+}
+
+.include #title{
+	font-weight: bolder;
+	font-size:20;
+}
+.input{
+	width:250px;height:30px;font-size:20;
+}

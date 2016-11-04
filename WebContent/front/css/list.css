@@ -1,0 +1,29 @@
+body{
+		text-align:center;
+		background-color: #EEF2FB;
+	}
+.gridView {
+	BORDER-RIGHT: #bad6ec 1px; BORDER-TOP: #bad6ec 1px; BORDER-LEFT: #bad6ec 1px; BORDER-BOTTOM: #bad6ec 1px;
+}
+.gridViewHeader {
+	BORDER-RIGHT: #bad6ec 1px solid; BORDER-TOP: #bad6ec 1px solid; BACKGROUND-IMAGE: url
+
+(images/news-title-bg.gif); BORDER-LEFT: #bad6ec 1px solid; HEIGHT: 27px; BORDER-BOTTOM: #bad6ec 
+
+1px solid; COLOR: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 14px; FONT-WEIGHT: bold;
+
+TEXT-ALIGN: center;
+}
+.gridViewItem {
+	BORDER-RIGHT: #bad6ec 1px solid; BORDER-TOP: #bad6ec 1px solid; BORDER-LEFT: #bad6ec 1px 
+
+solid; HEIGHT: 30px; BORDER-BOTTOM: #bad6ec 1px solid; TEXT-ALIGN: center; COLOR: #000000; 
+
+font-family: Arial, Helvetica, sans-serif; font-size: 14px;
+}
+.gridViewItem a{
+	TEXT-ALIGN: center; COLOR: #135294; font-family: Arial, Helvetica, sans-serif; font-size: 14px;
+}
+.gridViewItem a:HOVER{
+	TEXT-ALIGN: center; COLOR: #ff6600; font-family: Arial, Helvetica, sans-serif; font-size: 14px;
+}

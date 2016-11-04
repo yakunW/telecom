@@ -1,0 +1,8 @@
+.include tr{
+	height:30px;
+}
+
+.include #title{
+	font-weight: bolder;
+	font-size:20;
+}

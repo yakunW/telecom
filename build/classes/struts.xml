@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="GBK" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+
+	<!-- author:wangyakun -->
+
+<package name="wyk" extends="struts-default" namespace="/">
+<action name="getXunjianZt" class="wyk.action.GetXunjianZtAction" method="execute">
+ <result name="success">/front/afxjzc/jiance.jsp</result>
+</action>
+
+<action name="savedata" class="wyk.action.GetDataAction" method="saveData">
+ <result name="success">/index.jsp</result>
+</action>	
+
+<action name="getchecked" class="wyk.action.GetXsAction" method="getChecked">
+ <result name="checked">/front/afxjzc/checked.jsp</result>
+</action>
+
+<action name="getuncheck" class="wyk.action.GetXsAction" method="getUncheck">
+ <result name="uncheck">/front/afxjzc/uncheck.jsp</result>
+</action>
+
+<action name="gettable" class="wyk.action.GetTableAction" method="getTable">
+ <result name="xjb">/front/afxjzc/xjb.jsp</result>
+ <result name="error">/front/afxjzc/c1.jsp</result>
+</action>
+ 
+<action name="gethistorytable" class="wyk.action.GetHistoryTableAction" method="getHistoryTable">
+ <result name="xjb">/front/afxjzc/xjb.jsp</result>
+ <result name="error">/front/afxjzc/c1.jsp</result>
+</action>
+ 
+<action name="login" class="wyk.action.LoginAction" method="login">
+ 
+</action>
+<action name="login2" class="wyk.action.LoginAction" method="login2">
+ 
+</action>
+<action name="task" class="wyk.action.TaskAction" method="getTask">
+ <result name="success">/front/afxjzc/task.jsp</result>
+</action>
+
+<action name="updatepwd" class="wyk.action.UpdatePwdAction" method="updatepwd">
+</action>
+</package>
+	
+</struts>    

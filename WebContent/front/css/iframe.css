@@ -1,0 +1,39 @@
+
+
+a {
+	color: #09719D;
+	cursor: pointer;
+}
+a:hover {
+	color: #0FB8FF;
+}
+a.kbd {
+	background-color: #E5E5E5;
+	border-color: #ECECEC #ACACAC #ACACAC #ECECEC;
+	border-style: solid;
+	border-width: 2px;
+	color: #858585;
+	font: normal 12px/18px Arial, sans-serif;
+	margin-right: 6px;
+	padding: 1px 3px;
+}
+a:hover.kbd {
+	background-color: #0FB8FF;
+	border-color: #0FB8FF;
+	color: #FFF;
+}
+
+
+
+.long input, 
+.long select {
+	width: 175px;
+}
+
+.long input.alternate,
+.long select.alternate,
+.long input.calendar,
+.long select.calendar {
+	width: 175px;
+}
+

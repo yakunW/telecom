@@ -1,0 +1,47 @@
+
+body{
+	font-size:12px;
+	font-family: "ËÎÌו",Arial, Helvetica, sans-serif;
+}
+IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; 
+	BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.notice A {
+	font-size: 12px; COLOR: #135294; TEXT-DECORATION: none
+}
+.notice A:hover {
+	font-size: 12px; COLOR: #ff6600; TEXT-DECORATION: underline
+}
+#news A {
+	COLOR: #135294; TEXT-DECORATION: none
+}
+#news A:hover {
+	COLOR: #ff6600; TEXT-DECORATION: underline
+}
+#page_top{
+	font-size:12px;
+	font-family: "ËÎÌו",Arial, Helvetica, sans-serif;
+}
+#news{
+	font-size:12px;
+	font-family: "ËÎÌו",Arial, Helvetica, sans-serif;
+}
+#news tr{
+	height:20px;
+}
+#frmright{
+	width:100%;
+	height:280px;
+}
+.login_info{
+	padding-left:10px;
+	font-size:12px;
+	text-align:left;
+}
+.login_txt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 25px;
+	color: #333333;
+}

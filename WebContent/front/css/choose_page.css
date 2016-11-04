@@ -1,0 +1,24 @@
+.choose_page{
+	float: right;
+}
+.choose_page a{
+	TEXT-ALIGN: center; COLOR: #135294; font-family: Arial, Helvetica, sans-serif; font-size: 14px;
+}
+.choose_page a:VISITED{
+	TEXT-ALIGN: center; COLOR: #135294; font-family: Arial, Helvetica, sans-serif; font-size: 14px;
+}
+.choose_page a:HOVER{
+	TEXT-ALIGN: center; COLOR: #ff6600; font-family: Arial, Helvetica, sans-serif; font-size: 14px;
+}
+.cur_page a{
+	TEXT-ALIGN: center; COLOR: #135294; font-family: Arial, Helvetica, sans-serif; font-size: 14px;
+	font-weight: bolder; text-decoration: overline;
+}
+.cur_page a:VISITED{
+	TEXT-ALIGN: center; COLOR: #135294; font-family: Arial, Helvetica, sans-serif; font-size: 14px;
+	font-weight: bolder; text-decoration: overline;
+}
+.cur_page a:HOVER{
+	TEXT-ALIGN: center; COLOR: #135294; font-family: Arial, Helvetica, sans-serif; font-size: 14px;
+	font-weight: bolder; text-decoration: overline;
+}
